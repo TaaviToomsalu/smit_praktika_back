@@ -18,9 +18,9 @@ X
 (src/main/java/org/example/JpaConfig.java,3/0/301a569fbc583d6a1646044f4cd24444b775f68c
 _
 /src/main/java/org/example/DataSourceConfig.java,3/e/3ed0ff8146537dfbfa10ff401e04a6cf72586aaf
-Y
-)src/main/java/org/example/ContactDAO.java,5/1/51aa84be625c42fbfd34fc8d4a1f1df26ecee3dc
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+`
+0src/main/java/org/example/config/CorsConfig.java,8/d/8de8634c4052bc768f53b0bc090750d2ddf72464

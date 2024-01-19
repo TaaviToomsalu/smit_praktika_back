@@ -24,3 +24,7 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 `
 0src/main/java/org/example/config/CorsConfig.java,8/d/8de8634c4052bc768f53b0bc090750d2ddf72464
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+A
+database_dump.sql,8/e/8ebafb8103fc09ae0c7a13ce7ae25c33dee01482

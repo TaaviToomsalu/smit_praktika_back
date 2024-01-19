@@ -69,12 +69,12 @@
                 <configuration>
                     <source>20</source>
                     <target>20</target>
+                    <compilerArgs>
+                        <arg>-parameters</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>
-
-
-
     </build>
 
     <repositories>

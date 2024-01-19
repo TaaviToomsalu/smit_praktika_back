@@ -53,8 +53,13 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<Contact> createContact(@RequestBody Contact contact) {
-        Contact createdContact = contactService.createContact(contact);
-        return new ResponseEntity<>(createdContact, HttpStatus.CREATED);
+        try {
+            Contact createdContact = contactService.createContact(contact);
+            return new ResponseEntity<>(createdContact, HttpStatus.CREATED);
+        } catch (Exception e) {
+            // Handle exceptions and return an error response
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
     @PutMapping("/{id}")
